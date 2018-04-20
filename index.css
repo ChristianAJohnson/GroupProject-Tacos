@@ -1,0 +1,24 @@
+.wrapper {
+  position: relative;
+  width:90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 300px;
+}
+
+.banner {
+  background-color: blue;
+}
+
+.nav {
+  height: 20%;
+  background-color:green;
+}
+
+.content {
+  position: absolute;
+  top: 360px;
+  width: 100%;
+  background-color: red;
+  height: 80%;
+}
