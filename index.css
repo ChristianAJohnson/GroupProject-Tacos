@@ -1,24 +1,35 @@
+body {
+  margin: 0;
+}
+
 .wrapper {
+  margin: 0 auto;
+  padding: 0px;
+  border: 1px solid black;
   position: relative;
-  width:90%;
+  width:54.5%;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat (30, 1fr)
   grid-auto-rows: 300px;
 }
 
 .banner {
-  background-color: blue;
+  grid-column: 0/20;
+  background-image: url(newtacos.svg);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  width: 100%;
+  height:399px;
+  background-color: #f4df42;
 }
 
 .nav {
-  height: 20%;
+  height: 20px;
   background-color:green;
 }
 
 .content {
-  position: absolute;
-  top: 360px;
   width: 100%;
   background-color: red;
-  height: 80%;
+  height: 100%;
 }
