@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    .wrapper{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr  
+     grid-gap:6px;
+    grid-template-areas:
+    "banner banner"
+    " nav content "
+    " nav content "
+    }
+
+.banner{
+    grid-area: header;
+    background-image:url(newtacos.svg);
+}
+
+.content{
+    grid-area: content;
+    grid-column-start:2;
+}
+.nav{
+   grid-area: nav;
+   justify-self: start;
+grid-column-end:1;
+}
+
+
+.pop div:nth-child(even){
+    background-color:aqua;
+
+}
+.pop div:nth-child(odd){
+    background-color: mediumseagreen;
+}
+@media all and (min-width: 768px){
+    display:grid;
+    grid-template-columns: 1fr 500px 500px 1fr;
+    grid-gap:6px;
+    grid-template-areas:
+    ". header header ."
+    ". title title ."
+    ". nav content ."
+    ". nav content ."
+}
