@@ -24,22 +24,24 @@ body {
   display: block;
 }
 
-.nav {
-  padding: 2px;
-  height: 20px;
-  background-color:green;
-  border-bottom: 1px solid black;
+
+  .navbar{
+    border-style:dashed solid;
+        position:relative;
+        text-align:right;
+    background-color: gold;;
+    justify-self: left;
 }
 
 .content {
   width: 100%;
-  background-color: #F7CE2A;
+  background-color: #F7CE2A;;
 }
 
 .contenttext {
   padding: 4px;
-    background-color: #F7CE2A;
 }
+
 
 .gallery {
   display: inline-grid;
