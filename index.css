@@ -23,10 +23,12 @@ body {
   background-color: #f4df42;
 }
 
-.nav {
-  height: 20px;
-  background-color:green;
-  carousel
+  .navbar{
+    border-style:dashed solid;
+        position:relative;
+        text-align:right;
+    background-color: gold;;
+    justify-self: left;
 }
 
 .content {
