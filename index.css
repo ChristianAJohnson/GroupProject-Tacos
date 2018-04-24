@@ -1,38 +1,50 @@
 body {
   margin: 0;
+  background-image: url(tacobg.jpg);
+  background-position: fixed;
+
 }
 
 .wrapper {
   margin: 0 auto;
-  padding: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid black;
-  position: relative;
-  width:54.5%;
+  width: 50%;
   display: grid;
-  grid-template-columns: repeat (30, 1fr)
-  grid-auto-rows: 300px;
+  grid-auto-rows: minmax(100px) auto;
 }
 
 .banner {
-  grid-column: 0/20;
-  background-image: url(newtacos.svg);
-  background-repeat: no-repeat;
-  /* background-size: contain; */
+  border-bottom: 1px solid black;
+
+}
+.img {
   width: 100%;
-  height:399px;
-  background-color: #f4df42;
+  height: 100%;
+  display: block;
 }
 
+<<<<<<< HEAD
   .navbar{
     border-style:dashed solid;
         position:relative;
         text-align:right;
     background-color: gold;;
     justify-self: left;
+=======
+.nav {
+  padding: 2px;
+  height: 20px;
+  background-color:green;
+  border-bottom: 1px solid black;
+>>>>>>> 85b4d236b5f466da9c64919578ac83a317e6fcb7
 }
 
 .content {
   width: 100%;
-  background-color: red;
-  height: 100%;
+  background-color: #F7CE2A;;
+}
+
+.contenttext {
+  padding: 4px;
 }
