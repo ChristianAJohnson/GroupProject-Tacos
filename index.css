@@ -24,11 +24,20 @@ body {
   display: block;
 }
 
+<<<<<<< HEAD
+  .navbar{
+    border-style:dashed solid;
+        position:relative;
+        text-align:right;
+    background-color: gold;;
+    justify-self: left;
+=======
 .nav {
   padding: 2px;
   height: 20px;
   background-color:green;
   border-bottom: 1px solid black;
+>>>>>>> 85b4d236b5f466da9c64919578ac83a317e6fcb7
 }
 
 .content {
