@@ -30,12 +30,6 @@ body {
         text-align:right;
     background-color: gold;;
     justify-self: left;
-  }
-.nav {
-  padding: 2px;
-  height: 20px;
-  background-color:green;
-  border-bottom: 1px solid black;
 }
 
 .content {
@@ -45,4 +39,13 @@ body {
 
 .contenttext {
   padding: 4px;
+}
+
+.donate {
+  background-image: url(donate.png);
+  background-size: 100%, 100%;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  margin: auto auto;
 }
