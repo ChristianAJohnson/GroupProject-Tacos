@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid black;
-  width: 100%;
+  width: 65%;
   display: grid;
   grid-auto-rows: minmax(100px) auto;
   /* grid-gap: 12px; */
